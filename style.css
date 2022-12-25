@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ctn-bg1,
+.ctn-bg2,
+.ctn-bg3,
+.ctn-bg4,
+.ctn-bg5,
+.ctn-bg6 {
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctn-bg1 span {
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  background-color: #3e3b38;
+  background-image: linear-gradient(
+    90deg,
+    #3e3b38 0%,
+    #685d0f 22%,
+    #580807 49%,
+    #b41111 75%,
+    #c3ac57 100%
+  );
+  width: 80%;
+  margin-left: 40px;
+  outline-style: inset;
+  outline-color: rgb(128, 128, 128);
+  outline-width: 10px;
+  border-radius: 50px 0px 50px 0px;
+  outline-offset: 15px;
+}
+
+.ctn-bg2 span,
+.ctn-bg3 span,
+.ctn-bg4 span,
+.ctn-bg5 span,
+.ctn-bg6 span {
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  background-color: #111111;
+  background-image: linear-gradient(62deg, #111111 0%, #615f5e 100%);
+  width: 80%;
+  margin-left: 40px;
+  outline-style: inset;
+  outline-color: rgb(128, 128, 128);
+  outline-width: 10px;
+  border-radius: 50px 0px 50px 0px;
+  outline-offset: 15px;
+}
+
+.ctn-bg1 {
+  background-image: url(./img/itl.cat_game-of-thrones-wallpaper_24782.png);
+}
+
+.ctn1 {
+  background-color: #3e3b38;
+  background-image: linear-gradient(
+    90deg,
+    #3e3b38 0%,
+    #685d0f 22%,
+    #580807 49%,
+    #b41111 75%,
+    #c3ac57 100%
+  );
+}
+
+.ctn2,
+.ctn3,
+.ctn4,
+.ctn5,
+.ctn6 {
+  background-color: #b5b6bd;
+  background-image: linear-gradient(
+    270deg,
+    #b5b6bd 0%,
+    #5a5c5c 33%,
+    #b5b6bd 66%,
+    #5a5c5c 100%
+  );
+}
+
+.ctn-bg2 {
+  background-image: url(./img/stark.jpeg);
+}
+
+.ctn-bg3 {
+  background-image: url(./img/lannister.jpeg);
+}
+
+.ctn-bg4 {
+  background-image: url(./img/baratheon.jpeg);
+}
+
+.ctn-bg5 {
+  background-image: url(./img/targaryan.jpeg);
+}
+
+.ctn-bg6 {
+  background-image: url(./img/greyjoy.jpeg);
+}
+
+div h1 {
+  text-align: center;
+  font-size: 3em;
+  padding: 20px;
+}
+div p {
+  text-indent: 20px;
+  text-align: justify;
+  font-size: 1.2rem;
+  padding: 20px;
+}
